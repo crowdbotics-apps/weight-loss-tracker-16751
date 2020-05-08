@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'weight_loss_tracker_16751.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "weight_loss_tracker_16751.settings")
 
 application = get_wsgi_application()
